@@ -2,6 +2,7 @@
 function swanToggle() {
 
     var toggleLink = jQuery('li.show-widget-area-toggle a');
+
     var curToggleVal = toggleLink.html();
 
     if(curToggleVal == '+ swan') {

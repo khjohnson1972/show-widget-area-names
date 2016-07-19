@@ -62,7 +62,7 @@ class ShowWidgetTitle
         $wp_admin_bar->add_node( array(
             'parent' => false,
             'id' => 'show-widget-area-toggle',
-            'meta' => array('class' => 'show-widget-area-toggle', 'title' => 'Show Widget Area Names', 'onclick' => 'swanToggle();'),
+            'meta' => array('class' => 'show-widget-area-toggle', 'title' => 'Show Widget Area Names', 'onclick' => 'swanToggle();return false;'),
             'title' => '+ swan',
             'href' => '#'
         ) );
